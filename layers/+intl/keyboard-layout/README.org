@@ -18,7 +18,7 @@
 
 * Description
 This layer configures some keybindings in spacemacs to make it compatible with
-keyboard layouts that differs from the traditional =en-us= keymap.
+keyboard layouts that differ from the traditional =en-us= keymap.
 
 * Installation
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
@@ -71,9 +71,9 @@ Note: If you define some of these functions in your own layer, be sure that the
 =dotspacemacs-configuration-layers= list.
 
 * Concept
-This package first switch traditional ~hjkl~ movement keys with their equivalent
-in destination layout, and then try to correct the bugs introduced by these
-changes in other parts of Spacemacs. This layer only tries to do these changes
+This package first swaps the traditional ~hjkl~ movement keys with their equivalent
+in the destination layout, and then tries to correct the bugs introduced by these
+changes in other parts of Spacemacs. This layer only tries to make these changes
 when the letters are used for *doing a movement*.
 
 The equivalent remapping is also made for uppercase letters, ~CTRL+KEY~,
